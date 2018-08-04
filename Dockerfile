@@ -1,5 +1,5 @@
 FROM maven:3-jdk-8-alpine
-RUN apk update && apk add curl vim git
+RUN apk update && apk add curl git
 #Installing Pip
 RUN apk add --no-cache python3 && \
     python3 -m ensurepip && \
